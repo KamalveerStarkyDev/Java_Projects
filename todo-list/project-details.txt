@@ -1,0 +1,26 @@
+This To-Do-List Project needs 3 main tasks to be done
+    1. insertion
+    2. deletion
+    3. display
+
+and also it'll contain String type data in it, so the best data structure I could think of for this is ArrayList with String type.
+
+We have default methods like, 
+    1. size() // number of elements in the list
+    2. add(E element) // adding element to the end of the list
+    3. add(int index, E element) // adding element to a specific index
+    3. remove(index) // removing an element on a particular index
+    4. isEmpty() // to see if the list id empty
+    5. contains(Object o) // checks if o is in the list, returns true if yes else false
+    6. clear() // removes all the elements from the list
+    7. subList(int fromIndex, int toIndex) // returns a sub list from the main one according to the arguments 
+
+Now we just need to create an object of this list and then create a switch statement where we ask user which operation they want to perform and then call that specified method.
+
+To make it re ask until user asks to exit we just create a while loop with argument as 'true' to keep it running again and again.
+
+Then also create a option to exit out of the loop.
+
+That's seems to be it to create a basic To-Do-List.
+
+For any improvements you can contact me on my TWITTER --> "https://www.twitter.com/kamal_stark_".
