@@ -24,7 +24,7 @@ public class WordCounter {
     }
 
     private static int countWords(String text) {
-        String[] words = text.split("\\s");
+        String[] words = text.split("\\s+");
         return words.length;
     }
 
